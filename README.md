@@ -20,4 +20,4 @@ Project is created using:
 	
 ## View
 This project has been published and is hosted on "GitHub Pages": 
-https://pj12344756.github.io/cv-web/
+https://pj12344756.github.io/CV_Web/
