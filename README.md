@@ -1,4 +1,4 @@
-# cv-web
+# CV_Web
 My CV + First Web Project. 
 
 ## Table of contents
