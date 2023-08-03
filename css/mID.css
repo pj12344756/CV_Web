@@ -864,7 +864,7 @@ footer button {
 		}
 
 		.sepDos {
-			margin: 3%;
+			margin: 1%;
 			margin-bottom: 0;
 		}
 
@@ -872,13 +872,15 @@ footer button {
 			font-size: 1.1em;
 		}
 	
-		#exp {
+		section #exp {
 			border-bottom: hidden;
 		}
 		.klauza {
-			min-width: 200px;
-			bottom: 13px;
-			font-size: 0.4em;
+			/* max-width: 20ch; */
+			left: 25px;
+			padding-right: 42px;
+			bottom: 15px;
+			font-size: 0.4em ;
 		}
 		
 
