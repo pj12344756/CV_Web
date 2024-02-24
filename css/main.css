@@ -255,7 +255,7 @@ section :is(h2, .sub h3) {
 	width: 7px;
 	height: 7px;
 	border-radius: 50%;
-	background: var(--right-color);
+	background: FFF;
 	transition: background 2s;
 }
 
