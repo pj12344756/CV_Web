@@ -230,8 +230,8 @@ section :is(h2, .sub h3) {
 .subSkills {
 	display: block;
 	padding: 0 10%;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 
 }
 
@@ -246,12 +246,14 @@ section :is(h2, .sub h3) {
 .subSkillsItem p, .subSkillsList ul li {
 	font-size: 0.88em;
 	font-family: sans-serif;
+	text-align: top;
 }
+
 
 .kropka {
 	display: inline-block;
-	width: 9px;
-	height: 9px;
+	width: 7px;
+	height: 7px;
 	border-radius: 50%;
 	background: var(--right-color);
 	transition: background 2s;
@@ -263,10 +265,11 @@ section :is(h2, .sub h3) {
 
 .subSkillsList {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 0.5fr);
 	column-gap: 10%;
 	padding: 0 5%;
-	margin-top: 10%;
+	margin-top: 0%;
+	
 }
 
 .subSkillsList ul  {
@@ -317,9 +320,12 @@ section :is(h2, .sub h3) {
 	float: right;
 }
 
-.zmiany {
+
+.opis{
 	font-size: 1em;
 	font-style: oblique;
+	position: absolute;
+
 }
 
 
