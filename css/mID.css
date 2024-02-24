@@ -539,7 +539,7 @@ footer button {
 		width: 9px;
 		height: 9px;
 		border-radius: 50%;
-		background: var(--right-color);
+		background: FFF;
 	}
 	
 	.active {
@@ -635,6 +635,56 @@ footer button {
 	}
 
 }
+
+@media print {
+	#reply #locationOf {
+		font-size: 0.85em;
+		opacity: 1;
+	}
+
+	label {
+		opacity: 0;
+	}
+
+	.description #namee {
+		font-size: 1.2em;
+		margin-bottom: 0;
+	}
+
+	.description #dateFromTo {
+		font-size: 0.85em;
+		margin-top: 12%;
+	}
+	.mainConLeft ul li :nth-child(2) {
+		font-size: 0.84em;
+	}
+
+	
+	
+
+	article {
+		border-top: none;
+	}
+
+	.overviewSkills h4 {
+		margin-top: 17%;
+	}
+/* 
+	#infoHead {
+		margin-top: 17%;
+	} */
+
+	.zmiany {
+		font-size: 0.9em;
+	}
+
+	.klauza {
+		min-width: 500px;
+		bottom: 17px;
+		font-size: 0.38em;
+	}
+}
+
 
 @media (min-width: 800px) {
 
