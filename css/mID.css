@@ -64,6 +64,27 @@
 		height: 30px;
 	 }
 	
+	 .kropka {
+		display: inline-block;
+		width: 4px;
+		height: 4px;
+		border-radius: 50%;
+		background: FFF;
+	}
+
+	.subSkillsItem p, .subSkillsList ul li {
+		font-size: 0.65em;
+	}
+
+	.subSkillsList {
+		display: grid;
+		grid-template-columns: repeat(4, 0.5fr);
+		column-gap: 10%;
+		row-gap: 20%;
+		padding: 5% 5%;
+		margin-top: 0%;
+		/*grid-template-columns: repeat(2, 0.5fr);*/
+	}
 
 	  footer button {
 		width: 33px;
@@ -154,6 +175,28 @@
 	width: 35px;
     height: 38px;
  }
+
+ .kropka {
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: FFF;
+}
+
+.subSkillsItem p, .subSkillsList ul li {
+	font-size: 0.65em;
+}
+
+.subSkillsList {
+	display: grid;
+	grid-template-columns: repeat(4, 0.5fr);
+	column-gap: 10%;
+	row-gap: 20%;
+	padding: 5% 5%;
+	margin-top: 0%;
+	/*grid-template-columns: repeat(2, 0.5fr);*/
+}
  
 footer button {
    width: 35px;
@@ -183,7 +226,7 @@ footer button {
 	
 @media (min-width: 400px) {
 	  * :not(h2, h3) {
-   font-size: 18px;
+   font-size: 1rem;
  }
 
  .aboutLeft, .leftInfo {
@@ -251,6 +294,27 @@ footer button {
 	height: 40px;
 }
 
+.kropka {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: FFF;
+}
+
+.subSkillsItem p, .subSkillsList ul li {
+	font-size: 0.8em;
+}
+
+.subSkillsList {
+	display: grid;
+	grid-template-columns: repeat(4, 0.5fr);
+	column-gap: 10%;
+	row-gap: 20%;
+	padding: 5% 5%;
+	margin-top: 0%;
+	/*grid-template-columns: repeat(2, 0.5fr);*/
+}
  
  
 } 
@@ -514,7 +578,7 @@ footer button {
 	}
 
 	.subSkillsItem p {
-		font-size: 0.88em;
+		font-size: 0.88rem;
 		font-family: sans-serif;
 	}
 
@@ -536,8 +600,8 @@ footer button {
 
 	.kropka {
 		display: inline-block;
-		width: 9px;
-		height: 9px;
+		width: 6px;
+		height: 6px;
 		border-radius: 50%;
 		background: FFF;
 	}
@@ -584,34 +648,52 @@ footer button {
 		font-size: 0.75em;
 	}
 
-
-	.description #reply ol li {
-		font-size: 1rem;
-	}
+	 
+	/*.description #reply ol li {
+		font-size: 0.9rem;
+	}*/
 
 	.sepDos {
 		margin: 5% 0 0 0;
 	}
 
 	#first {
-		margin-top: 5%;
-
-	}
-
-	.sepDos h3 {
-		margin-bottom: 1%;
-		font-size: 1em;
-	}
-	
-	.sepDos p {
+		margin-top: 2%;
 		font-size: 1rem;
-
 	}
 
-	.zmiany {
-		font-style: oblique;
+	#first p span {
+		font-size: 0.7rem;
+		margin-top: 0;
+	}
+
+	#first p {
 		font-size: 0.8rem;
 	}
+
+	#second {
+		margin-top: 1rem;
+		font-size: 1rem;
+	}
+
+	#second p {
+		font-size: 0.8rem;
+	}
+
+	#third {
+		margin-top: 2%;
+		font-size: 1rem;
+	}
+
+	#third p span {
+		font-size: 0.7rem;
+		margin-top: 0;
+	}
+
+	#third p {
+		font-size: 0.8rem;
+	}
+
 
 
 	label {
@@ -865,7 +947,17 @@ footer button {
 	}
 
 	.subSkillsItem p, .subSkillsList ul li {
-		font-size: 0.80em;
+		font-size: 0.9em;
+	}
+
+	.subSkillsList {
+		display: grid;
+		grid-template-columns: repeat(4, 0.5fr);
+		column-gap: 10%;
+		row-gap: 20%;
+		padding: 2% 5%;
+		margin-top: 0%;
+		/*grid-template-columns: repeat(2, 0.5fr);*/
 	}
 
 	.description {
@@ -891,7 +983,7 @@ footer button {
 		}
 
 		:is(.description #reply ol li, .sepdos p) {
-			font-size: 0.9em;
+			font-size: 0.7em;
 		}
 
 		.sepDos {

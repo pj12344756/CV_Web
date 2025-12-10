@@ -239,6 +239,7 @@ section :is(h2, .sub h3) {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin: 6% 0 6% 0;
 	text-align: center;
 }
@@ -255,7 +256,7 @@ section :is(h2, .sub h3) {
 	width: 7px;
 	height: 7px;
 	border-radius: 50%;
-	background: FFF;
+	background: var(--right-color);
 	transition: background 2s;
 }
 
@@ -265,11 +266,12 @@ section :is(h2, .sub h3) {
 
 .subSkillsList {
 	display: grid;
-	grid-template-columns: repeat(2, 0.5fr);
+	grid-template-columns: repeat(5, 0.5fr);
 	column-gap: 10%;
-	padding: 0 5%;
+	row-gap: 20%;
+	padding: 2% 5%;
 	margin-top: 0%;
-	
+	/*grid-template-columns: repeat(2, 0.5fr);*/
 }
 
 .subSkillsList ul  {
@@ -288,7 +290,7 @@ section :is(h2, .sub h3) {
 	display: grid;
 	margin-top: 20px;
 	margin-bottom: 20px;
-
+	font-size: 0.8rem;
 	grid-template-columns: repeat(2, 1fr);
 	grid-auto-rows: repeat(2, 150px);
 
@@ -318,6 +320,10 @@ section :is(h2, .sub h3) {
 .sepDos span:first-child {
 	font-size: 0.8em;
 	float: right;
+}
+
+#second #by{
+	font-size: 0.5em;
 }
 
 
