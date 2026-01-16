@@ -13,8 +13,9 @@
 	 }
 	  
 	  .mainText h1 {
-		font-size: x-large;
+		font-size: 1.5rem;
 	  }
+
 	   
 	  h2 {
 		font-size: 17px; 
@@ -64,6 +65,10 @@
 		height: 30px;
 	 }
 	
+	 .listDses .subSkillsItem p {
+		width: 100%;
+	 }
+
 	 .kropka {
 		display: inline-block;
 		width: 4px;
@@ -112,16 +117,15 @@
 	display: none;
  }
 
- .sepDos h3 {
+.sepDos h3 {
 	font-size: 0.95rem;
 }
 
 .sepDos p {
 	font-size: 0.85rem;
 }
-
- .mainText h1 {
-   font-size: x-large;
+.listDses .subSkillsItem p {
+	width: 100%;
  }
   
  h2 {
@@ -229,6 +233,10 @@ footer button {
    font-size: 1rem;
  }
 
+.mainPic {
+	width: 95%;
+}
+
  .aboutLeft, .leftInfo {
 	display: none;
  }
@@ -240,10 +248,7 @@ footer button {
 .sepDos p {
 	font-size: 0.99rem;
 }
- 
- .mainText h1 {
-   font-size: 33px;
- }
+
 
  h3 {
    font-size: 18px;
@@ -315,8 +320,30 @@ footer button {
 	margin-top: 0%;
 	/*grid-template-columns: repeat(2, 0.5fr);*/
 }
- 
- 
+
+}
+@media (min-width: 540px) {
+	.kropka {
+		display: inline-block;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background: FFF;
+	}
+	
+	.subSkillsItem p, .subSkillsList ul li {
+		font-size: 0.9em;
+	}
+	
+	.subSkillsList {
+		display: grid;
+		grid-template-columns: repeat(4, 0.5fr);
+		column-gap: 10%;
+		row-gap: 20%;
+		padding: 5% 5%;
+		margin-top: 0%;
+		/*grid-template-columns: repeat(2, 0.5fr);*/
+	}
 } 
 	
 @media (min-width: 760px), print{
@@ -383,6 +410,7 @@ footer button {
 	.mainPic {
 		border-radius: inherit;
 		height: 100%;
+		width: 100%;
 		/* border: 1px solid red; */
 	}
 	
@@ -569,7 +597,7 @@ footer button {
 		transition: border 2s;
 	}
 
-	#subDiv .subSkillsItem {
+	 .subSkillsItem {
 		display: flex;
 		width: 100%;
 		justify-content: space-between;
@@ -694,7 +722,9 @@ footer button {
 		font-size: 0.8rem;
 	}
 
-
+	.listDses .subSkillsItem {
+		justify-content: center;
+	}
 
 	label {
 		display: block !important;
@@ -741,7 +771,9 @@ footer button {
 		font-size: 0.84em;
 	}
 
-	
+	.listDses .subSkillsItem {
+		justify-content: center;
+	}
 	
 
 	article {
@@ -1007,13 +1039,14 @@ footer button {
 		}
 		
 
+
 }
 
 
 
 #labelMain {
 	color: whitesmoke;
-	font-size: x-large;
+	font-size: 1.2rem;
 	line-height: 50px;
 	/*text-shadow: none;*/
 		text-shadow: 1.5px 1.7px 2.7px #000;
@@ -1022,6 +1055,10 @@ footer button {
 		font-style: italic;
 		text-transform: uppercase;
 }
+
+.mainText h1 {
+	font-size: 1.5rem;
+  }
 
 
 #pic {
@@ -1155,5 +1192,4 @@ a:hover + #locationOf {
 #about p {
 	margin: 5%;
 }
-
 

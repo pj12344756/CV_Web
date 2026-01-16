@@ -140,12 +140,14 @@ nav ul li a {
 	margin: 10vh 5% 0 5%;
 	padding: 20% 5% 10% 5%;
 	gap: 10%;
+	
 	}
 
 .mainPic {
 	border-radius: 50%;
 	/* height: 100%; */
-	/* border: 1px solid red;  */
+	margin: auto; 
+	/*border: 1px solid red; */ 
 }
 
 .mainText {
@@ -161,7 +163,7 @@ nav ul li a {
 }
 
 .mainText h1 {
-	font-size: xx-large;    
+	font-size: 2rem;    
 	line-height: 1.5em;
 	font-weight: 600;
 	color: white;
@@ -243,6 +245,8 @@ section :is(h2, .sub h3) {
 	margin: 6% 0 6% 0;
 	text-align: center;
 }
+
+
 
 .subSkillsItem p, .subSkillsList ul li {
 	font-size: 0.88em;
